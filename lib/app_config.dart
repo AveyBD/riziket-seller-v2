@@ -2,17 +2,17 @@ var this_year = DateTime.now().year.toString();
 
 class AppConfig {
   //this shows in the splash screen
-  static String copyright_text = "@ ActiveItZone " + this_year;
+  static String copyright_text = "@ Riziket " + this_year;
   //this shows in the splash screen
-  static String app_name = "Active eCommerce seller app";
+  static String app_name = "Riziket - Seller app";
 
   //enter your purchase code for the app from codecanyon
-  static String purchase_code = "";
+  static String purchase_code = "3f22e76e-061a-46e0-a7d5-4718b9e5935f";
 
   /// Put your system key generated from this site https://activeitzone.com/activation
   ///  Just replace the system-key with your key
 
-  static String system_key = r"system-key";
+  static String system_key = r"$2y$10$U.17/F.iagaJhc4c1rmgE.VGbNXt2Io1X/stJWxzuHTbjRwBq1YHS";
 
 
   //Default language config
@@ -23,7 +23,7 @@ class AppConfig {
   //configure this
   //localhost
   static const bool HTTPS = true;
-  static const DOMAIN_PATH = "domain.com";
+  static const DOMAIN_PATH = "riziket.com";
 
   //do not configure these below
   static const String API_ENDPATH = "api/v2";

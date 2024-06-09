@@ -1,4 +1,4 @@
-package com.riziket.userapp
+package com.riziket.seller
 
 import io.flutter.embedding.android.FlutterActivity
 
